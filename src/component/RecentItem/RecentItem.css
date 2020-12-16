@@ -1,0 +1,26 @@
+.recentItem {
+  margin: 1rem;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  overflow: hidden;
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.item__details {
+  display: flex;
+  margin-top: 10px;
+}
+
+.item__detailsText > h4 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.item__detailsText > p {
+  font-size: 0.7rem;
+}

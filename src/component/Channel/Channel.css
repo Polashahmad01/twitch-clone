@@ -1,0 +1,46 @@
+.channel {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px auto;
+  transition: all 200ms ease-in-out;
+}
+
+.channel:hover {
+  background-color: #25252c;
+}
+
+.channel__details {
+  display: flex;
+  align-items: center;
+}
+
+.channel__details > img {
+  object-fit: contain;
+  margin-right: 10px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.channel__details > p {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.channel__follower {
+  display: flex;
+  align-items: center;
+}
+
+.channel__follower > p {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.channel__follower > i {
+  margin-left: 1rem;
+  color: red;
+  font-size: 0.8rem;
+}
