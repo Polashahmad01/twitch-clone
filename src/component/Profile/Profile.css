@@ -92,3 +92,44 @@
 .profile__recent > h2 {
   margin-left: 1rem;
 }
+
+/* Mobile Version */
+@media (max-width: 767px) {
+  .profile__topLeft > img {
+    height: 56px;
+    margin: 20px;
+  }
+
+  .profile__topLeftDetails > h1 {
+    font-size: 1.5rem;
+  }
+
+  .profile__topLeftDetails > h3 {
+    font-size: 0.8rem;
+  }
+
+  .profile__topRight > i {
+    margin: 5px;
+    padding: 10px auto;
+    font-size: 0.9rem;
+  }
+
+  .profile__menu {
+    margin-bottom: 40px;
+  }
+
+  .profile__menu > li {
+    font-size: 0.8rem;
+  }
+
+  .profile__recentItems {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Tablet Version */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .profile__recentItems {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
