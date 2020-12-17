@@ -13,6 +13,7 @@ const RecentItem = ({ url, title, channelName }) => {
                 frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowFullScreen
+                title={channelName}
             >
             </iframe>
             <div className="item__details">
