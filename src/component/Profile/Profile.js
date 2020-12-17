@@ -7,7 +7,7 @@ const Profile = () => {
     return (
         <div className="profile">
             <div className="profile__topLeft">
-                <img src="http://www.pngall.com/wp-content/uploads/5/Profile-Transparent.png" alt="profile" />
+                <img src="https://yt3.ggpht.com/ytc/AAUvwnifaQZvAunS0OFb2y_cieoVjLCVjqQW8Exf3BC1gg=s176-c-k-c0x00ffffff-no-rj-mo" alt="profile" />
                 <div className="profile__topLeftDetails">
                     <h1>FreeCodeCamp</h1>
                     <h3>1M followers</h3>
